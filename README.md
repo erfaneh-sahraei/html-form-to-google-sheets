@@ -13,6 +13,7 @@ A lightweight, simple project demonstrating how to capture data from a standard 
 ---
 
 ## 📂 Project Structure
-```text
-├── index.html        # Simple HTML test form
-└── README.md         # Project documentation
+├── index.html            # فرم HTML تستی
+├── sample-payload.json   # نمونه ساختار داده (JSON) ارسال‌شده
+└── README.md             # مستندات پروژه
+
