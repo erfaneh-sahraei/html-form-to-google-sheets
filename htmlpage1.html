@@ -1,9 +1,30 @@
-<form action="https://n8n.82-115-24-55.sslip.io/webhook-test/3c10e587-0f91-4614-bfc8-ef7cf58eb7b2" , method="post">
-    <input type="text" name="name" placeholder="name please" required\>
-    <input type="text" name="family" placeholder="family please" required\>
-    <input type="email" name="email" placeholder="email please" required\>
-    <input type="tel" name="phone" placeholder="phone please" required\>
-    <button type="submit">send</button>    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webhook Test Form</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        input { margin-right: 10px; padding: 5px; }
+        button { cursor: pointer; padding: 5px 15px; }
+    </style>
+</head>
+<body>
 
+    <h2>Test Form: Send Data to Google Sheets</h2>
+    
+    <!-- آدرس وب‌هوک خودت را اینجا در بخش action جایگزین کن -->
+    <form action="https://n8n.82-115-24-55.sslip.io/webhook-test/3c10e587-0f91-4614-bfc8-ef7cf58eb7b2" , method="post">
+        <input type="text" name="firstName" placeholder="name please" required>
+        <input type="text" name="lastName" placeholder="family please" required>
+        <input type="email" name="email" placeholder="email please" required>
+        <input type="tel" name="phone" placeholder="phone please" required>
+        
+        <button type="submit">send</button>
+    </form>
 
-</form>
+    <p><small>Note: This is a simple test for Webhook integration.</small></p>
+
+</body>
+</html>
